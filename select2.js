@@ -15,7 +15,7 @@ db.serialize( () => {
 			return;
 		}
 		for( let data of row ) {
-			console.log( data.id + ' : ' + data.name + ' : ' + data.maker_id);
+			console.log( data.id + ' : ' + data.name + ' : ' + data.name2);
 		}
 	});
 });
